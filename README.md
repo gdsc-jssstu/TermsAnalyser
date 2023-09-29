@@ -1,6 +1,6 @@
 # TermsAnalyser 📃⚖️
 
-## Project Structer :-
+## Project Structure :-
 
 The Terms and Conditions Analysis App is a Flutter application designed to analyze terms and conditions documents of various apps and provide users with valuable insights. The app employs natural language processing (NLP) techniques to extract summaries, identify problematic statements, and enable users to ask questions about the terms and conditions of different services and applications.
 
@@ -15,7 +15,7 @@ Question-Answering: Users can ask questions about specific sections or clauses i
 
 - Python 3.11.3
 - Flask 2.3.3
-
+- Flutter
 
 ### `Before contributing look into `[CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 
@@ -45,15 +45,6 @@ git clone https://github.com/gdsc-jssstu/TermsAnalyser.git
 
 
 <hr>
-
-## Tech stack used for front end:
-The tech stack used here is:
-
-- Flutter
-
-
-<hr>
-
 #### Before contributing look into [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 #### Our Code of Conduct: [CODE OF CONDUCT](./CODE_OF_CONDUCT.md)
 <hr>
