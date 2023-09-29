@@ -27,7 +27,66 @@ git clone https://github.com/gdsc-jssstu/TermsAnalyser.git
 ```
 
 ### Flutter part:-
+## Project Structure
 
+-**my_flutter_app/**<br/>
+  -**android/**:       Native Android code and configuration<br />
+  -**ios/**:           Native iOS code and configuration<br />
+  -**lib/**:           Dart code for the application<br />
+  -**main.dart**:   Entry point of the Flutter app<br />
+  -**test/**:           Unit and widget tests<br />
+  -**assets/**:         Static assets like images, fonts, and JSON files<br />
+  -**build/**:         Build artifacts (automatically generated)<br />
+  -**doc/**:            Documentation (if any)<br />
+  -**web/**:           Web-specific code and assets (if applicable)<br />
+  -**.gitignore**:    Git ignore file for specifying ignored files and directories<br />
+  -**pubspec.yaml**:   Flutter project configuration<br />
+-**README.md**:      Project-specific documentation (this file)<br />
+
+
+<hr>
+
+## Tech stack used for front end:
+The tech stack used here is:
+
+- Flutter
+
+
+<hr>
+
+#### Before contributing look into [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
+#### Our Code of Conduct: [CODE OF CONDUCT](./CODE_OF_CONDUCT.md)
+<hr>
+
+## Project setup instructions:
+ 
+- **Fork the repository** to your GitHub account by clicking the "Fork" button at the top-right corner of this page. This will create a copy of the repository under your account.
+
+- **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
+
+   `
+   git clone https://github.com/your-username/campUS-Web.git
+   cd campUS-web
+   `
+   
+- **Install project dependencies** using (Flutter Package Manager): `flutter pub get`
+
+- **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
+
+### Development
+
+- Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your Emulator
+ 
+
+- Commit your changes with a descriptive commit message:
+   `git commit -m "Add your descriptive message here" `
+
+### Push Changes
+
+- Push your changes to your forked repository on GitHub:
+`git push origin feature/your-feature-name`
+
+<hr>
 
 ### ML part:-
 
