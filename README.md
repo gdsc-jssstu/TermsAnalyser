@@ -30,6 +30,7 @@ git clone https://github.com/gdsc-jssstu/TermsAnalyser.git
 ## Project Structure
 
 -**my_flutter_app/**<br/>
+  -**MLapi/**:       The ml api<br />
   -**android/**:       Native Android code and configuration<br />
   -**ios/**:           Native iOS code and configuration<br />
   -**lib/**:           Dart code for the application<br />
