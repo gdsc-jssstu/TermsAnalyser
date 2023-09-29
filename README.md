@@ -65,8 +65,7 @@ The tech stack used here is:
 - **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
 
    `
-   git clone https://github.com/your-username/campUS-Web.git
-   cd campUS-web
+   https://github.com/gdsc-jssstu/TermsAnalyser.git
    `
    
 - **Install project dependencies** using (Flutter Package Manager): `flutter pub get`
