@@ -16,6 +16,9 @@ Question-Answering: Users can ask questions about specific sections or clauses i
 - Python 3.11.3
 - Flask 2.3.3
 
+
+### `Before contributing look into `[CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
+
 ## Project Setup:-
 
 ```
@@ -75,12 +78,42 @@ http://127.0.0.1:5000
 
 ``` 
 
+This api still experimental so might not give proper results , But it will not affect your Flutter contributions .
 ### Routes available by MLapi :-
 
-http://127.0.0.1:5000/summarypdf  -->this route is used to get the summary of the pdf file
-http://127.0.0.1:5000/summaryfor=<data>  -->this route is used to get the summary of the text sent through the post request
-http://127.0.0.1:5000/classifierpdf   -->this route is used to get the classification of the pdf file
-http://127.0.0.1:5000/classifierfor=<data>  -->this route is used to get the classification of the text sent through the post request
-http://127.0.0.1:5000//chatfor=<data>    -->this route is used to get the answer of the question asked through the post request
+http://127.0.0.1:5000/summarypdf  -->summary of the pdf file
+http://127.0.0.1:5000/summaryfor=<data>  -->summary of the text sent through the post request
+http://127.0.0.1:5000/classifierpdf   -->classifications of the pdf file
+http://127.0.0.1:5000/classifierfor=<data>  -->classifications of the text sent through the post request
+http://127.0.0.1:5000//chatfor=<data>    -->get the answer of the question asked through the post request
+
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/2eabf074-f786-44ae-9406-d6b88648a103)
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/dc72cd68-005a-4e6e-b2fe-af1fa2006646)
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/18623052-4eea-40df-8f54-595f22ca1efb)
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/7c1d079b-1681-4078-98b9-b8aee05d8b4f)
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/80b8e116-1855-4ee4-833b-166ea48beadd)
+
+![image](https://github.com/gdsc-jssstu/TermsAnalyser/assets/97246168/d467b328-958a-4d9e-8014-87dc77b78c6d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
