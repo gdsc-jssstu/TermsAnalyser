@@ -75,6 +75,12 @@ http://127.0.0.1:5000
 
 ``` 
 
+### Routes available by MLapi :-
 
+http://127.0.0.1:5000/summarypdf  -->this route is used to get the summary of the pdf file
+http://127.0.0.1:5000/summaryfor=<data>  -->this route is used to get the summary of the text sent through the post request
+http://127.0.0.1:5000/classifierpdf   -->this route is used to get the classification of the pdf file
+http://127.0.0.1:5000/classifierfor=<data>  -->this route is used to get the classification of the text sent through the post request
+http://127.0.0.1:5000//chatfor=<data>    -->this route is used to get the answer of the question asked through the post request
 
 
