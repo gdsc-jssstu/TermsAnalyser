@@ -1,0 +1,6 @@
+requests
+sentence-transformers
+transformers
+Flask
+pdfminer.six
+Gunicorn
