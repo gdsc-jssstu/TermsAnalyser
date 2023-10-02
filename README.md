@@ -27,6 +27,8 @@ git clone https://github.com/gdsc-jssstu/TermsAnalyser.git
 ```
 
 ### Flutter part:-
+## UI/UX Design 
+You can find the UI/UX design [here https://www.figma.com/file/99ae7Wphzkbh4wGWBVSxGd/Terms-%26-Conditions?type=design&node-id=0-1&mode=design&t=gKYuByKQXHa4YSIQ-0]
 ## Project Structure
 
 -**my_flutter_app/**<br/>
