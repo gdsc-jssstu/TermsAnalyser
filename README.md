@@ -1,6 +1,6 @@
 # TermsAnalyser 📃⚖️
 
-## Project Structer :-
+## Project Structure :-
 
 The Terms and Conditions Analysis App is a Flutter application designed to analyze terms and conditions documents of various apps and provide users with valuable insights. The app employs natural language processing (NLP) techniques to extract summaries, identify problematic statements, and enable users to ask questions about the terms and conditions of different services and applications.
 
@@ -15,7 +15,7 @@ Question-Answering: Users can ask questions about specific sections or clauses i
 
 - Python 3.11.3
 - Flask 2.3.3
-
+- Flutter
 
 ### `Before contributing look into `[CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 
@@ -27,7 +27,57 @@ git clone https://github.com/gdsc-jssstu/TermsAnalyser.git
 ```
 
 ### Flutter part:-
+## UI/UX Design 
+The UI/UX design is given here [https://www.figma.com/file/99ae7Wphzkbh4wGWBVSxGd/Terms-%26-Conditions?type=design&node-id=0-1&mode=design&t=gKYuByKQXHa4YSIQ-0]
+## Project Structure
 
+-**my_flutter_app/**<br/>
+  -**MLapi/**:       The ml api<br />
+  -**android/**:       Native Android code and configuration<br />
+  -**ios/**:           Native iOS code and configuration<br />
+  -**lib/**:           Dart code for the application<br />
+  -**main.dart**:   Entry point of the Flutter app<br />
+  -**test/**:           Unit and widget tests<br />
+  -**assets/**:         Static assets like images, fonts, and JSON files<br />
+  -**build/**:         Build artifacts (automatically generated)<br />
+  -**doc/**:            Documentation (if any)<br />
+  -**web/**:           Web-specific code and assets (if applicable)<br />
+  -**.gitignore**:    Git ignore file for specifying ignored files and directories<br />
+  -**pubspec.yaml**:   Flutter project configuration<br />
+-**README.md**:      Project-specific documentation (this file)<br />
+
+
+<hr>
+<hr>
+
+## Project setup instructions:
+ 
+- **Fork the repository** to your GitHub account by clicking the "Fork" button at the top-right corner of this page. This will create a copy of the repository under your account.
+
+- **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
+
+   `
+   https://github.com/gdsc-jssstu/TermsAnalyser.git
+   `
+   
+- **Install project dependencies** using (Flutter Package Manager): `flutter pub get`
+
+- **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
+
+### Development
+
+- Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your Emulator
+ 
+
+- Commit your changes with a descriptive commit message:
+   `git commit -m "Add your descriptive message here" `
+
+### Push Changes
+
+- Push your changes to your forked repository on GitHub:
+`git push origin feature/your-feature-name`
+
+<hr>
 
 ### ML part:-
 
