@@ -80,8 +80,9 @@ def summarize():
         ansstr+=i[0]['summary_text']
     return ansstr         #returning the summary
 
-@app.route("/summaryfor=<data>")                            #route for summarizing text
-def summarizefor(data):
+@app.route("/summaryfor",methods=['POST'])                            #route for summarizing text
+def summarizefor():
+    data=request.get_json()['text']                #extracting the text
     return summarizer(data)[0]['summary_text']               #returning the summary
 
 @app.route("/classifierpdf")
@@ -123,16 +124,18 @@ def classifypdf():                                #route for classifying pdf
     return {"data-storage-retention-deletion":dsrd,"data_collection_usage":dcu,"data-security-protection":dsp,"data-sharing-disclosure":dsd,"other":other}
 
 
-@app.route("/classifierfor=<data>")
-def classify(data):                                        #route for classifying text
+@app.route("/classifierfor",methods=['POST'])
+def classify():                                        #route for classifying text
+    data=request.get_json()['text']                      #extracting the text
     classdata=data.split('.')
     classdata={'inputs':classdata}                     #creating a json object
 
     response = requests.post(API_URL, headers=headers, json=classdata)            #sending the json object to the api
     return response.json()                                          #returning the response
 
-@app.route("/chatfor=<data>")
-def chat(data):                                       #route for chatbot
+@app.route("/chatfor",methods=['POST'])
+def chat():                                       #route for chatbot
+    data=request.get_json()['text']                      #extracting the text
     try:
         model,cross_encoder,embeddings,paragraphs=embed('data.pdf',129,100)          #extracting text from pdf
     except:
