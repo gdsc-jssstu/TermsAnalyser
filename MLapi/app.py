@@ -7,6 +7,7 @@ API_URL = "https://api-inference.huggingface.co/models/remzicam/privacy_intent"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}  
 from transformers import pipeline
 import requests
+from flask import request
 summarizer = pipeline("summarization", model="knkarthick/MEETING_SUMMARY")
 from pdfminer.high_level import extract_text
 from sentence_transformers import SentenceTransformer, util,CrossEncoder
@@ -142,7 +143,7 @@ def chat(data):                                       #route for chatbot
 
 @app.route("/pdfu",methods=['POST'])
 def pdfu():                                                    #route for uploading pdf
-    pdf=requests.files['pdf']                                    #extracting the pdf
+    pdf=request.files['pdf']                                    #extracting the pdf
     try:
         pdf.save('data.pdf')                                     #saving the pdf
         return "success"                                                    #returning success
